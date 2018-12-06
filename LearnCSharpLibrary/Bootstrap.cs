@@ -1,6 +1,6 @@
 using System;
 
-namespace LearnCSharp
+namespace LearnCSharpLibrary
 {
     public class Bootstrap
     {

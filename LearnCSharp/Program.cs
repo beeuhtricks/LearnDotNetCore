@@ -1,4 +1,6 @@
-﻿namespace LearnCSharp
+﻿using LearnCSharpLibrary;
+
+namespace LearnCSharp
 {
     internal static class Program
     {
