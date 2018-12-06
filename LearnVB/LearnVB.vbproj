@@ -4,6 +4,7 @@
         <OutputType>Exe</OutputType>
         <RootNamespace>LearnVB</RootNamespace>
         <TargetFramework>netcoreapp2.2</TargetFramework>
+        <OptionStrict>On</OptionStrict>
     </PropertyGroup>
 
 </Project>

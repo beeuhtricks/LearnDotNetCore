@@ -3,6 +3,7 @@
     <PropertyGroup>
         <RootNamespace>LearnVBLibrary</RootNamespace>
         <TargetFramework>netcoreapp2.2</TargetFramework>
+        <OptionStrict>On</OptionStrict>
     </PropertyGroup>
 
 </Project>
