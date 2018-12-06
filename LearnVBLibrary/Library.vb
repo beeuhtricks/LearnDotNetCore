@@ -1,2 +1,2 @@
-Public Class Class1
+Public Class Library
 End Class
