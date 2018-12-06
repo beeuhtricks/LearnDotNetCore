@@ -1,12 +1,21 @@
 using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace LearnCSharpLibrary
 {
     public class Bootstrap
     {
-        public void Start(string[] args)
+        private readonly ReadOnlyCollection<string> _args;
+
+        public Bootstrap(IList<string> args)
         {
-            Console.WriteLine($"Hello {args[0]}!");
+            _args = new ReadOnlyCollection<string>(args);
+        }
+
+        public void Start()
+        {
+            Console.WriteLine($"Hello World from {_args[0]}!");
         }
     }
 }

@@ -6,8 +6,8 @@ namespace LearnCSharp
     {
         private static void Main(string[] args)
         {
-            var bootstrap = new Bootstrap();
-            bootstrap.Start(args);
+            var bootstrap = new Bootstrap(args);
+            bootstrap.Start();
         }
     }
 }

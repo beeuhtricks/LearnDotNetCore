@@ -2,4 +2,4 @@
 
 module Say =
     let hello name =
-        printfn "Hello %s" name
+        printfn "Hello World from %s!" name
