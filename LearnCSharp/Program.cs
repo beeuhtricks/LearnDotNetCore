@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace LearnCSharp
+﻿namespace LearnCSharp
 {
     internal static class Program
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var bootstrap = new Bootstrap();
+            bootstrap.Start(args);
         }
     }
 }
