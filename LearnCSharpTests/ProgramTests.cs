@@ -2,7 +2,6 @@ using System;
 using System.IO;
 using LearnCSharpLibrary;
 using Xunit;
-using Program = LearnCSharp;
 
 namespace LearnCSharpTests
 {
