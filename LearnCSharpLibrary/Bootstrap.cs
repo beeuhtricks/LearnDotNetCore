@@ -17,10 +17,10 @@ namespace LearnCSharpLibrary
         public void Start()
         {
             Console.WriteLine($"Hello World from {_args[0]}!");
-            var myObj = new object();
-            myObj.Blorp();
             const string str = "blorp";
-            str.Blorp();
+            str.Print();
+
+            var x = ("hello", 4);
         }
     }
 }
