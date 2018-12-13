@@ -20,8 +20,4 @@
       <ProjectReference Include="..\LearnVB\LearnVB.vbproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Library\" />
-    </ItemGroup>
-
 </Project>
