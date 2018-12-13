@@ -7,20 +7,16 @@ namespace LearnCSharpLibrary
 {
     public class Bootstrap
     {
-        private readonly ReadOnlyCollection<string> _args;
+        private readonly ReadOnlyCollection<string> args;
 
         public Bootstrap(IList<string> args)
         {
-            _args = new ReadOnlyCollection<string>(args);
+            this.args = new ReadOnlyCollection<string>(args);
         }
 
         public void Start()
         {
-            Console.WriteLine($"Hello World from {_args[0]}!");
-            const string str = "blorp";
-            str.Print();
-
-            var x = ("hello", 4);
+            Console.WriteLine($"Hello World from {this.args[0]}!");
         }
     }
 }
