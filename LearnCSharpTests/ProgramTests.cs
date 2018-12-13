@@ -13,10 +13,10 @@ namespace LearnCSharpTests
             var consoleOutput = new StringWriter();
             Console.SetOut(consoleOutput);
 
-            var bootstrapTest = new Bootstrap(new []{"MainTest"});
+            var bootstrapTest = new Bootstrap(new[] { "MainTest" });
             bootstrapTest.Start();
-
-            Assert.Equal("Hello MainTest!\n", consoleOutput.ToString());
+            var expected = $"Hello World from MainTest!{Environment.NewLine}";
+            Assert.Equal(expected, consoleOutput.ToString());
         }
     }
 }

@@ -10,4 +10,5 @@ let MainTest() =
     let consoleOutput = new StringWriter()
     Console.SetOut consoleOutput
     Bootstrap.start [| "MainTest" |] |> ignore
-    Assert.Equal("Hello World from MainTest!\n", consoleOutput.ToString())
+    let expected = sprintf "Hello World from MainTest!%s" Environment.NewLine
+    Assert.Equal(expected, consoleOutput.ToString())
