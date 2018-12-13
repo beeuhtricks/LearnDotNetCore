@@ -9,7 +9,7 @@
 
     <ItemGroup>
         <Compile Include="Library\ExtensionsTests.fs" />
-        <Compile Include="Console\ProgramTests.fs" />
+        <Compile Include="Executable\ProgramTests.fs" />
     </ItemGroup>
 
     <ItemGroup>
