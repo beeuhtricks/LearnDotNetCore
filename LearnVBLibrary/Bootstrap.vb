@@ -1,7 +1,7 @@
 Public Class Bootstrap
     Private ReadOnly _args As String()
 
-    Public Sub New(ByVal args As String())
+    Public Sub New(args As String())
         _args = args
     End Sub
 
