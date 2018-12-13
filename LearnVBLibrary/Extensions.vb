@@ -2,7 +2,7 @@ Imports System.Runtime.CompilerServices
 
 Public Module Extensions
     <Extension>
-    Public Sub Blorp(ByVal o As Object)
-        Console.WriteLine("blorp")
+    Public Sub Print(s As String)
+        Console.WriteLine(s)
     End Sub
 End Module
