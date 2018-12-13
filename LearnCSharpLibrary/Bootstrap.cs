@@ -1,3 +1,12 @@
+// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Bootstrap.cs" company="Beatrix Klebe">
+//   2018 Beatrix Klebe
+// </copyright>
+// <summary>
+//   Defines the Bootstrap type.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
 namespace LearnCSharpLibrary
 {
     using System;

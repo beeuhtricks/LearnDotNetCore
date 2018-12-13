@@ -1,4 +1,13 @@
-namespace LearnCSharpTests
+// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="ProgramTests.cs" company="Beatrix Klebe">
+//   2018 Beatrix Klebe
+// </copyright>
+// <summary>
+//   Defines the ProgramTests type.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace LearnCSharpTests.Executable
 {
     using System;
     using System.IO;
@@ -7,8 +16,14 @@ namespace LearnCSharpTests
 
     using Xunit;
 
+    /// <summary>
+    /// The program tests.
+    /// </summary>
     public class ProgramTests
     {
+        /// <summary>
+        /// The main test.
+        /// </summary>
         [Fact]
         public void MainTest()
         {
