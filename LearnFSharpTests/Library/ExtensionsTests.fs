@@ -1,4 +1,4 @@
-﻿module ExtensionsTests
+﻿module LearnFSharpTests.Library.ExtensionsTests
 
 open System
 open System.IO

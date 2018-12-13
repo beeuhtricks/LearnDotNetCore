@@ -1,7 +1,7 @@
-﻿// Learn more about F# at http://fsharp.org
+﻿module LearnFSharp.Program
 
 open LearnFSharpLibrary
-
+        
 [<EntryPoint>]
 let main argv =
     Bootstrap.start argv

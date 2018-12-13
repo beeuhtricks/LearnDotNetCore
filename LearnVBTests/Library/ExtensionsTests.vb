@@ -2,15 +2,17 @@
 Imports LearnVBLibrary
 Imports Xunit
 
-Public Class ExtensionsTests
-    <Fact>
-    Sub PrintStringEqual()
-        Dim consoleOutput = New StringWriter
-        Console.SetOut(consoleOutput)
+Namespace Library
+    Public Class ExtensionsTests
+        <Fact>
+        Sub PrintStringEqual()
+            Dim consoleOutput = New StringWriter
+            Console.SetOut(consoleOutput)
 
-        Const testString = "This is a test."
-        testString.Print()
+            Const testString = "This is a test."
+            testString.Print()
 
-        Assert.Equal($"This is a test.{Environment.NewLine}", consoleOutput.ToString())
-    End Sub
-End Class
+            Assert.Equal($"This is a test.{Environment.NewLine}", consoleOutput.ToString())
+        End Sub
+    End Class
+End Namespace

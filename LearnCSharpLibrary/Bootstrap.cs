@@ -1,10 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using LearnFSharpLibrary;
-
 namespace LearnCSharpLibrary
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Collections.ObjectModel;
+
     public class Bootstrap
     {
         private readonly ReadOnlyCollection<string> args;

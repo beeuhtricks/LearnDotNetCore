@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace LearnCSharpLibrary
+﻿namespace LearnCSharpLibrary
 {
     public class Library
     {

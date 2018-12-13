@@ -1,10 +1,12 @@
-using System;
-using System.IO;
-using LearnCSharpLibrary;
-using Xunit;
-
 namespace LearnCSharpTests
 {
+    using System;
+    using System.IO;
+
+    using LearnCSharpLibrary;
+
+    using Xunit;
+
     public class ProgramTests
     {
         [Fact]

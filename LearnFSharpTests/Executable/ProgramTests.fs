@@ -1,4 +1,4 @@
-module ProgramTests
+module LearnFSharpTests.Console.ProgramTests
 
 open System
 open System.IO

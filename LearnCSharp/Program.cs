@@ -1,7 +1,7 @@
-﻿using LearnCSharpLibrary;
-
-namespace LearnCSharp
+﻿namespace LearnCSharp
 {
+    using LearnCSharpLibrary;
+
     internal static class Program
     {
         private static void Main(string[] args)

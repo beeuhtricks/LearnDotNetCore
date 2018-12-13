@@ -1,4 +1,4 @@
-﻿namespace LearnFSharpLibrary
+﻿module LearnFSharpLibrary.Library
 
 module Say =
     let hello name =
